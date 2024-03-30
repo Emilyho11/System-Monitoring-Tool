@@ -3,7 +3,7 @@
 - C program that reports different metrics of the utilization of a given system.
 - Runs on Linux Operating Systems
 
-How I solved the problem:
+## How I solved the problem:
 - I imported multiple libraries to make this assignment work:
    - #include<stdio.h>
      * Standard input/output library to be able to use 'printf' for example.
@@ -33,7 +33,7 @@ How I solved the problem:
     - I divided the 'idle' (4th column or 3rd index), by the sum (total time) to get the cpu usage.
 - To test to see if my values for cpu and ram work is by using the rand() function that randomizes values.
 
-Overview of the functions:
+## Overview of the functions:
 - display_memory():
     - Displays the "Memory" section. If there is the flag '--graphics' or '-g', it generates a graphical representation showing the memory used.
     - Takes in 6 parameters:
@@ -89,7 +89,7 @@ Overview of the functions:
         - **argv: pointer to another pointer of type char that stores an array of strings from the command line arguments
     - Returns 0 if there is no error. Any nonzero value indicates some type of failure in the program.
 
-How to run(use) my program:
+## How to run(use) my program:
 - To test and run the program, I connected to the lab servers (UTSC lab machines).
 - The program accepts multiple command line arguments:
     - '--system': only the system usage will be shown
